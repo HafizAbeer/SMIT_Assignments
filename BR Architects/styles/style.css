@@ -1,0 +1,1370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 30px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+    top: 0;
+}
+
+.Logo h3,
+p {
+    display: inline-block;
+}
+
+.Logo {
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.Logo h3 {
+    display: inline-block;
+}
+
+.Logo a {
+    color: black;
+}
+
+.nav-content {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.nav-content a {
+    padding: 0 5px;
+}
+
+.nav-content a {
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo {
+    background-image: url(../assets/images/architect.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo-content {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+#logo p {
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+div#logo-content h1 {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 0 8px;
+}
+
+.projects-content #heading1 {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    width: 100%;
+}
+
+.projects-assets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.projects-assets .img1 {
+    background-image: url(../assets/images/house5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets .img1 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects-assets .img2 {
+    background-image: url(../assets/images/house2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+
+}
+
+.projects-assets .img2 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.projects-assets .img3 {
+    background-image: url(../assets/images/house3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets .img3 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects-assets .img4 {
+    background-image: url(../assets/images/house4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets .img4 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects-assets2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.projects-assets2 .img1 {
+    background-image: url(../assets/images/house2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets2 .img1 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects-assets2 .img2 {
+    background-image: url(../assets/images/house5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets2 .img2 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.projects-assets2 .img3 {
+    background-image: url(../assets/images/house4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets2 .img3 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.projects-assets2 .img4 {
+    background-image: url(../assets/images/house3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.5%;
+    height: 150px;
+    margin: 5px;
+}
+
+.projects-assets2 .img4 p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.about-content #heading2 {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    width: 100%;
+}
+
+.about-content #para1 {
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.card {
+    width: 25%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.card img {
+    width: 98%;
+    opacity: 0.8;
+}
+
+.card p.names {
+    font-size: 20px;
+}
+
+.card p.rolls {
+    font-size: 14px;
+    color: darkgray;
+    padding-top: 10px;
+}
+
+.card p.info {
+    padding-top: 5px;
+}
+
+.card button {
+    width: 98%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.card button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+div .contact-info #heading3 {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    width: 100%;
+}
+
+.contact-text {
+    width: 100%;
+    padding: 8px;
+}
+
+.contact-info button {
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.contact-info button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000000;
+}
+
+.map-content img {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: #fff;
+    height: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    bottom: 0;
+}
+
+footer b {
+    font-size: 20px;
+}
+
+/* Styles for extra small screens
+@media only screen and (max-width: 575.98px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #logo {
+        background-image: url(../assets/images/architect.jpg);
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #logo-content {
+        display: flex;
+        align-items: center;
+        opacity: 0.7;
+    }
+
+    #logo p {
+        padding-left: 10px;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    div#logo-content h1 {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding: 0 8px;
+    }
+
+    .projects-content #heading1 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .projects-assets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .projects-assets .img1 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img2 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+
+    }
+
+    .projects-assets .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets .img3 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img4 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .projects-assets2 .img1 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img2 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img3 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img4 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card button {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all 0.5s;
+    }
+
+    .card button:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .map-content img {
+        height: 200px;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+Styles for small screens
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        width: 100%;
+    }
+
+    #logo {
+        background-image: url(../assets/images/architect.jpg);
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #logo-content {
+        display: flex;
+        align-items: center;
+        opacity: 0.7;
+    }
+
+    #logo p {
+        padding-left: 10px;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    div#logo-content h1 {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding: 0 8px;
+    }
+
+    .projects-content #heading1 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .projects-assets .img1 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img2 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+
+    }
+
+    .projects-assets .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets .img3 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img4 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img1 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img2 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img3 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img4 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card button {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all 0.5s;
+    }
+
+    .card button:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .map-content img {
+        height: 300px;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+Styles for medium screens
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #logo {
+        background-image: url(../assets/images/architect.jpg);
+        width: 100%;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #logo-content {
+        display: flex;
+        align-items: center;
+        opacity: 0.7;
+    }
+
+    #logo p {
+        padding-left: 10px;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    div#logo-content h1 {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding: 0 8px;
+    }
+
+    .projects-content #heading1 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .projects-assets .img1 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img2 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+
+    }
+
+    .projects-assets .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets .img3 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img4 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img1 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img2 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img3 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img4 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 48.5%;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .cards {
+        display: inline-block;
+    }
+
+    .card {
+        width: 49.7%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card button {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all 0.5s;
+    }
+
+    .card button:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .map-content img {
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+Styles for large screens
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #logo {
+        background-image: url(../assets/images/architect.jpg);
+        width: 80%;
+        margin: 0 auto;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #logo-content {
+        display: flex;
+        align-items: center;
+        opacity: 0.7;
+    }
+
+    #logo p {
+        padding-left: 10px;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    div#logo-content h1 {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding: 0 8px;
+    }
+
+    .projects-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .projects-content #heading1 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .projects-assets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .projects-assets .img1 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img2 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+
+    }
+
+    .projects-assets .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets .img3 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets .img4 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .projects-assets2 .img1 {
+        background-image: url(../assets/images/house2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img1 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .projects-assets2 .img2 {
+        background-image: url(../assets/images/house5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img2 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img3 {
+        background-image: url(../assets/images/house4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img3 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .projects-assets2 .img4 {
+        background-image: url(../assets/images/house3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 23.5%;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .projects-assets2 .img4 p {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .about-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-content #heading2 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .about-content #para1 {
+        text-align: justify;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        width: 27%;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .card img {
+        width: 200px;
+        opacity: 0.8;
+    }
+
+    .card p.names {
+        font-size: 20px;
+    }
+
+    .card p.rolls {
+        font-size: 14px;
+        color: darkgray;
+        padding-top: 10px;
+    }
+
+    .card p.info {
+        padding-top: 5px;
+    }
+
+    .card button {
+        width: 98%;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all 0.5s;
+    }
+
+    .card button:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    div .contact-info #heading3 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 100%;
+    }
+
+    .contact-text {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .contact-info button {
+        margin-bottom: 20px;
+        padding: 8px 10px;
+        border: 1px solid #000;
+        cursor: pointer;
+        background-color: #000;
+        color: #fff;
+        transition: all 0.5s;
+    }
+
+    .contact-info button:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000000;
+    }
+
+    .map-content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .map-content img {
+        height: 450px;
+        overflow: hidden;
+    }
+
+} */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>My Feedback Form</h1>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" name="Name" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" name="email" id="email"><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your password" name="password" id="password">
+        </div>
+        <div>
+            <h4>Please select all the emotions that apply to you:</h4>
+            <input type="checkbox" id="angry">
+            <label for="angry">Angry</label><br>
+            <input type="checkbox" id="sad">
+            <label for="sad">Sad</label><br>
+            <input type="checkbox" id="happy">
+            <label for="happy">Happy</label>
+        </div>
+        <div>
+            <h4>How satisfied were you with our services?</h4>
+            <label for="services">Very satisfied</label>
+            <input type="radio" name="services" id="services"><br>
+            <label for="service1">Satisfied</label>
+            <input type="radio" name="services" id="service1"><br>
+            <label for="service2">Disatisfied</label>
+            <input type="radio" name="services" id="service2">
+        </div>
+        <div>
+            <h4>Gender?</h4>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <p>Further Comments: <textarea name="comments" id="comments" cols="20" rows="3"></textarea></p>
+            <p>Bio Photo:<input type="file"></p>
+            <p>Location Visited 
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="Faisalabad">Fsd</option>
+                    <option value="Lahore">LHR</option>
+                    <option value="Islamabad">ISB</option>
+                    <option value="Karachi">KHI</option>
+                </select>
+            </p>
+            <input type="submit">
+        </div>
+        <hr>
+        <input type="text" placeholder="First Name">
+    </main>
+</body>
+</html>
